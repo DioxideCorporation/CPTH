@@ -1,0 +1,46 @@
+Zadanie egzaminacyjne 
+ 
+Korzystając z dostępnych narzędzi, oprogramowania oraz elementów znajdujących się na stanowisku 
+egzaminacyjnym, wykonaj montaż okablowania i podłączenie urządzeń sieciowych. Przeprowadź 
+konfigurację urządzeń sieciowych i systemów zainstalowanych na dysku twardym stacji roboczej i serwera, 
+oraz diagnostykę podzespołów komputera. 
+Do konfiguracji serwera Windows wykorzystaj konto Administrator z hasłem ZAQ!2wsx  
+Do diagnostyki i konfiguracji stacji roboczej wykorzystaj następujące konta:  
+• w systemie Windows konto Administrator z hasłem ZAQ!2wsx 
+• w systemie Linux konto administrator z hasłem  ZAQ!2wsx (konto z uprawnieniami użytkownika 
+root) 
+ 
+1. Wykonaj montaż okablowania sieciowego: 
+• wykonaj podłączenie kabla UTP do panelu krosowego według sekwencji T568A 
+• drugi koniec kabla UTP podłącz do gniazda naściennego z zamontowanym modułem Keystone 
+według sekwencji T568A 
+UWAGA: Po wykonaniu montażu okablowania oraz gniazda z modułem Keystone zgłoś przewodniczącemu 
+ZN – przez podniesienie ręki – gotowość do przeprowadzenia testu wykonanego okablowania. W obecności 
+egzaminatora sprawdź, za pomocą testera okablowania, poprawność wykonanego połączenia panel krosowy 
+– gniazdo naścienne. 
+ 
+2. Zamontuj w serwerze dysk twardy opisany jako SERWER_WINDOWS 
+UWAGA: Po wykonaniu montażu zgłoś przewodniczącemu ZN – przez podniesienie ręki – gotowość do 
+zakończenia prac montażowych. Po uzyskaniu zgody przystąp do końcowych czynności montażowych 
+i uruchomienia systemu Windows w wersji serwerowej 
+ 
+3. Skonfiguruj przełącznik zgodnie z zaleceniami. Wykonaj zrzut ekranu potwierdzający konfigurację 
+przełącznika. Zrzut zapisz jako plik graficzny na dysku USB opisanym EGZAMIN w folderze 
+Konfiguracja_przełącznika 
+UWAGA: przełącznik pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna 
+w folderze PRZEŁĄCZNIK na nośniku opisanym DANE/PROGRAMY 
+• adres IP: 172.16.0.2 z maską 24 bitową, jeśli jest wymagana 
+• brama domyślna: adres interfejsu LAN rutera, jeśli jest wymagana 
+ 
+4. Skonfiguruj ruter zgodnie z zaleceniami. Wykonaj zrzuty ekranu potwierdzające konfigurację rutera. 
+Zrzuty zapisz jako pliki graficzne na dysku USB o nazwie EGZAMIN w folderze Konfiguracja_rutera 
+UWAGA: ruter pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, która jest dostępna w folderze 
+RUTER na nośniku opisanym DANE/PROGRAMY 
+• adres IP dla interfejsu LAN: 172.16.0.1/24 
+• adres IP interfejsu WAN: dowolny prawidłowy adres IP w sieci 10.0.0.0/9, brama domyślna: ostatni 
+adres IP w sieci 10.0.0.0/9 
+• serwer DNS dla interfejsu WAN: 7.7.9.9 oraz drugi serwer DNS: 9.9.8.8, jeśli jest wymagany 
+• serwer DHCP wyłączony 
+  
+ 
+

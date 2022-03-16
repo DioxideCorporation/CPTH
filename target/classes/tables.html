@@ -1,0 +1,237 @@
+<p style="text-transform:uppercase;"><i class="icon-newspaper"></i> Oznaczenie: EE.08-01-21.01-SG &nbsp; <i
+        class="icon-clock-1"></i> Limit czasu: 150 minut</p>
+<h3>Zadanie egzaminacyjne</h3>
+<p>Korzystając z dostępnych narzędzi, oprogramowania oraz element&oacute;w znajdujących się na stanowisku
+    egzaminacyjnym, wykonaj montaż okablowania i podłączenie urządzeń sieciowych. Przeprowadź konfigurację urządzeń
+    sieciowych i system&oacute;w zainstalowanych na dysku twardym stacji roboczej i serwera, oraz diagnostykę podzespoł&oacute;w
+    komputera.</p>
+<p>Do konfiguracji serwera Windows wykorzystaj konto <code>Administrator</code> z hasłem <code>ZAQ!2wsx</code></p>
+<p>Do diagnostyki i konfiguracji stacji roboczej wykorzystaj następujące konta:</p>
+<ul class="circled">
+    <li>w systemie Windows konto <code>Administrator</code> z hasłem <code>ZAQ!2wsx</code></li>
+    <li>w systemie Linux konto <code>administrator</code> z hasłem <code>ZAQ!2wsx</code> (konto z uprawnieniami
+        użytkownika <code>root</code>)&nbsp;
+    </li>
+</ul>
+<p>1. Wykonaj montaż okablowania sieciowego:</p>
+<ul class="circled">
+    <li>wykonaj podłączenie kabla UTP do panelu krosowego według sekwencji <code>T568A</code></li>
+    <li>drugi koniec kabla UTP podłącz do gniazda naściennego z zamontowanym modułem Keystone według sekwencji <code>T568A</code>
+    </li>
+</ul>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Po wykonaniu montażu okablowania oraz gniazda z modułem Keystone zgłoś przewodniczącemu ZN
+        &ndash; przez podniesienie ręki &ndash; gotowość do przeprowadzenia testu wykonanego okablowania. W obecności
+        egzaminatora sprawdź, za pomocą testera okablowania, poprawność wykonanego połączenia panel krosowy &ndash;
+        gniazdo naścienne.
+    </dd>
+</dl>
+<p>2. Zamontuj w serwerze dysk twardy opisany jako <code>SERWER_WINDOWS</code></p>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Po wykonaniu montażu zgłoś przewodniczącemu ZN &ndash; przez podniesienie ręki &ndash; gotowość
+        do zakończenia prac montażowych. Po uzyskaniu zgody przystąp do końcowych czynności montażowych i uruchomienia
+        systemu Windows w wersji serwerowej
+    </dd>
+</dl>
+<p>3. Skonfiguruj przełącznik zgodnie z zaleceniami. Wykonaj zrzut ekranu potwierdzający konfigurację przełącznika.
+    Zrzut zapisz jako <code>plik graficzny</code> na dysku USB opisanym <code>EGZAMIN</code> w folderze <code>Konfiguracja_przełącznika</code>
+</p>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Przełącznik pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, kt&oacute;ra jest
+        dostępna w folderze PRZEŁĄCZNIK na nośniku opisanym DANE/PROGRAMY
+    </dd>
+</dl>
+<dl></dl>
+<ul class="circled">
+    <li>adres IP: <code>172.16.0.2</code> z maską <code>24 bitową</code>, jeśli jest wymagana&nbsp;</li>
+    <li>brama domyślna: adres interfejsu LAN rutera, jeśli jest wymagana</li>
+</ul>
+<p>4. Skonfiguruj ruter zgodnie z zaleceniami. Wykonaj zrzuty ekranu potwierdzające konfigurację rutera. Zrzuty zapisz
+    jako <code>pliki graficzne</code> na dysku USB o nazwie <code>EGZAMIN</code> w folderze
+    <code>Konfiguracja_rutera</code></p>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Ruter pracuje na ustawieniach fabrycznych zgodnie z dokumentacją, kt&oacute;ra jest dostępna w
+        folderze RUTER na nośniku opisanym DANE/PROGRAMY
+    </dd>
+</dl>
+<ul class="circled">
+    <li>adres IP dla interfejsu LAN: <code>172.16.0.1/24</code></li>
+    <li>adres IP interfejsu WAN: dowolny prawidłowy adres IP w sieci <code>10.0.0.0/9</code>, brama domyślna: ostatni
+        adres IP w sieci <code>10.0.0.0/9&nbsp;</code></li>
+    <li>serwer DNS dla interfejsu WAN: <code>7.7.9.9</code> oraz drugi serwer DNS: <code>9.9.8.8</code>, jeśli jest
+        wymagany&nbsp;
+    </li>
+    <li>serwer DHCP wyłączony&nbsp;</li>
+</ul>
+<p>5. Za pomocą kabli połączeniowych znajdujących się na stanowisku egzaminacyjnym połącz urządzenia zgodnie ze
+    schematem, a następnie podłącz je do sieci zasilającej.&nbsp;</p>
+<div class="text-center">
+    <h4>Schemat połączenia urządzeń</h4>
+</div>
+<p><img class="img-responsive center-block" src="https://egzamin-informatyk.pl/arkusze/schemat-EE.08-01-21.01-SG.png"
+        border="0" alt=""/></p>
+<p>6. Przeprowadź na stacji roboczej test systemu operacyjnego Linux oraz zasob&oacute;w komputera za pomocą dostępnych
+    w systemie narzędzi. Uzyskane wyniki test&oacute;w, w postaci zrzut&oacute;w ekranowych, zapisz w <code>pliku
+        tekstowym</code> o nazwie <code>TestowanieLinuxa</code> i umieść go na dysku USB oznaczonym nazwą
+    <code>EGZAMIN</code>. Uzyskane wyniki zapisz także w <code>Tabeli 1. Test systemu operacyjnego oraz zasob&oacute;w
+        stacji roboczej</code>, kt&oacute;ra znajduje się w arkuszu egzaminacyjnym.&nbsp;</p>
+<p>7. Na stacji roboczej skonfiguruj system Linux.&nbsp;</p>
+<ul class="circled">
+    <li>skonfiguruj interfejs sieciowy stacji roboczej według zaleceń:&nbsp;
+        <ul class="circledin">
+            <li>nazwa połączenia: <code>LANLinux</code></li>
+            <li>adres IP: <code>172.16.0.3/24</code></li>
+            <li>brama domyślna: adres interfejsu LAN rutera</li>
+            <li>ustaw prędkość kursora myszy na wartość minimalną</li>
+            <li>ustaw automatyczne pobieranie czasu z Internetu</li>
+        </ul>
+    </li>
+</ul>
+<p>8. Skonfiguruj serwer z zainstalowanym systemem operacyjnym Windows</p>
+<ul class="circled">
+    <li>interfejs sieciowy podłączony do przełącznika&nbsp;
+        <ul class="circledin">
+            <li>nazwa połączenia: <code>Switch</code></li>
+            <li>adres IP: <code>172.16.0.4/24</code></li>
+            <li>brama domyślna: adres IP interfejsu LAN rutera</li>
+            <li>serwer DNS: adres IP interfejsu LAN rutera</li>
+        </ul>
+    </li>
+    <li>promuj serwer do roli kontrolera domeny</li>
+    <ul class="circledin">
+        <li>utw&oacute;rz nową domenę w nowym lesie o nazwie <code>test.local</code>. Jako hasło
+            <code>administratora</code> trybu przywracania usług katalogowych użyj <code>ZAQ!2wsx</code>&nbsp;
+        </li>
+        <li>utw&oacute;rz nową jednostkę organizacyjną o nazwie <code>egzamin</code></li>
+    </ul>
+    <li>utw&oacute;rz w nowej jednostce konto użytkownika z ograniczonymi uprawnieniami, z następującymi ustawieniami:
+    </li>
+    <ul class="circledin">
+        <li>login: <code>tester</code></li>
+        <li>hasło: <code>t@st@r1!</code></li>
+        <li>pełna nazwa: <code>software_tester</code></li>
+        <li>użytkownik nie może zmienić hasła</li>
+        <li>adres e-mail: : <code>tester@egzamin.local.pl</code>&nbsp;</li>
+        <li>godziny logowania: <code>poniedziałek &divide; piątek</code>, <code>8.00-16.00</code>&nbsp;</li>
+        <li>przypisz konto użytkownika <code>tester</code> do grupy <code>Użytkownicy</code> pulpitu zdalnego</li>
+    </ul>
+    <li>za pomocą <code>Wiersza poleceń</code> wykonaj test połączenia serwera z <code>ruterem</code>, <code>przełącznikiem</code>
+        i <code>stacją roboczą</code>&nbsp;
+    </li>
+</ul>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Zgłoś przewodniczącemu ZN &ndash; przez podniesienie ręki &ndash; gotowość do sprawdzenia
+        komunikacji serwera z ruterem, przełącznikiem i stacją roboczą. W obecności egzaminatora przeprowadź test
+        komunikacji połączonych urządzeń sieciowych
+    </dd>
+</dl>
+<p>9. Korzystając z <code>Cennika usług komputerowych</code>, sporządź w arkuszu kalkulacyjnym kosztorys wykonanych prac
+    serwisowych, zgodnie z <code>Tabelą 2. Wz&oacute;r kosztorysu</code>. W kosztorysie uwzględnij podatek VAT w
+    wysokości 23%</p>
+<ul class="circled">
+    <li>plik kosztorysu zapisz pod nazwą <code>Kosztorys</code> na dysku USB oznaczonym nazwą <code>EGZAMIN</code></li>
+    <li>obliczenia w kolumnie <code>Cena brutto</code> powinny wykonywać się automatycznie, po wypełnieniu kolumny
+        <code>Cena netto</code> z uwzględnieniem podatku VAT&nbsp;
+    </li>
+    <li>obliczenia w kolumnie <code>Wartość brutto</code> powinny wykonywać się automatycznie w oparciu o kolumny <code>Cena
+        brutto</code> oraz <code>Ilość</code></li>
+    <li>sumowanie kolumny <code>Wartość brutto</code> powinno odbywać się automatycznie&nbsp;</li>
+    <li>liczby znajdujące się w kolumnie <code>Cena netto</code>, <code>Cena brutto</code> oraz <code>Wartość
+        brutto</code> powinny mieć format <code>waluty Euro</code> (&euro;)
+    </li>
+    <li>wartość znajdująca się w polu <code>SUMA</code> powinna być automatycznie zaokrąglana do liczby całkowitej za
+        pomocą funkcji&nbsp;
+    </li>
+</ul>
+<div class="text-center">
+    <h4>Cennik usług komputerowych</h4>
+</div>
+<table style="height: 230px; width: 97.561%;">
+    <thead>
+    <tr style="height: 22.4px;">
+        <th style="width: 9.30272%; height: 22.4px; text-align: center;">Lp.</th>
+        <th style="width: 58.4524%; height: 22.4px;">Nazwa usługi</th>
+        <th style="width: 32.1088%; height: 22.4px;">Cena netto usługi w &euro;</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">1.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Konfiguracja systemu Windows/ Linux</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">40,25</td>
+    </tr>
+    <tr style="height: 27.4px;">
+        <td style="width: 9.30272%; height: 27.4px; text-align: center;">2.</td>
+        <td style="width: 58.4524%; height: 27.4px;">Instalacja oprogramowania narzędziowego</td>
+        <td style="width: 32.1088%; height: 27.4px; text-align: right;">35,99</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">3.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Konfiguracja oprogramowania narzędziowego&nbsp;</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">22,22</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">4.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Testowanie zasob&oacute;w komputera&nbsp;</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">39,77</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">5.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Instalacja systemu Windows/ Linux</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">71,99</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">6.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Montaż okablowania&nbsp;</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">28,10</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">7.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Zabezpieczenie danych</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">25,15</td>
+    </tr>
+    <tr style="height: 22.4px;">
+        <td style="width: 9.30272%; height: 22.4px; text-align: center;">8.</td>
+        <td style="width: 58.4524%; height: 22.4px;">Konfiguracja przełącznika</td>
+        <td style="width: 32.1088%; height: 22.4px; text-align: right;">15,50</td>
+    </tr>
+    <tr style="height: 23.4px;">
+        <td style="width: 9.30272%; height: 23.4px; text-align: center;">9.</td>
+        <td style="width: 58.4524%; height: 23.4px;">Konfiguracja rutera</td>
+        <td style="width: 32.1088%; height: 23.4px; text-align: right;">37,90</td>
+    </tr>
+    </tbody>
+</table>
+<p>Czas przeznaczony na wykonanie zadania wynosi 150 minut.</p>
+<p>Ocenie będzie podlegać 6 rezultat&oacute;w:&nbsp;</p>
+<ul class="circled">
+    <li>wykonane okablowanie sieciowe oraz połączenie fizyczne urządzeń</li>
+    <li>diagnostyka systemu operacyjnego oraz podzespoł&oacute;w</li>
+    <li>skonfigurowane urządzenia sieciowe</li>
+    <li>skonfigurowany serwer&nbsp;</li>
+    <li>skonfigurowana stacja robocza</li>
+    <li>kosztorys</li>
+</ul>
+<p>oraz przebieg wykonania okablowania sieciowego i podłączenia urządzeń sieciowych.&nbsp;</p>
+<dl>
+    <dt><dfn> UWAGA! </dfn></dt>
+    <dd class="deftext">Zawartość dysku USB, wykorzystywanego podczas egzaminu do zapisu zrzut&oacute;w ekranowych lub
+        dokument&oacute;w, jest usuwana po egzaminie i nie stanowi dokumentacji egzaminacyjnej przekazywanej wraz z
+        arkuszem do OKE
+    </dd>
+</dl>
+<div class="text-center">
+    <h4>Tabela 1. Test systemu operacyjnego oraz zasob&oacute;w stacji robocze</h4>
+</div>
+<p><img class="img-responsive center-block"
+        src="https://egzamin-informatyk.pl/arkusze/test-systemu-EE-08-01-21-01-SG.png" border="0" alt=""/></p>
+<div class="text-center">
+    <h4>Tabela 2. Wz&oacute;r kosztorysu</h4>
+</div>
+<p><img class="img-responsive center-block"
+        src="https://egzamin-informatyk.pl/arkusze/wzor-kosztorysu-EE-08-01-21-01-SG.png" border="0" alt=""/></p>
